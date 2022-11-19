@@ -1,6 +1,6 @@
 const constansts = {
     //serverBaseURL: 'http://localhost:3000'
-    serverBaseURL: 'https://evacuation-backend-uvlznjf2tq-lz.a.run.app'
+    serverBaseURL: 'https://evac-backend-uvlznjf2tq-lz.a.run.app'
+    
 }
-
 export default constansts;
