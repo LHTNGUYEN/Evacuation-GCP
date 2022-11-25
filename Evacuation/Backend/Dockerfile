@@ -7,7 +7,7 @@ EXPOSE 3000
 
 RUN npm install
 
-CMD ["npm", "dev"]
+CMD ["npm", "run", "dev"] 
 #CMD ["npm", "start"]
 
 
