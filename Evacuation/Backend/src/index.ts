@@ -15,12 +15,7 @@ if (process.env.NODE_ENV === 'development') {
   }
 } else {
   corsOptions = {
-    //origin: "https://iob.news"
-    //origin: ["https://iob.news","https://evac-backend-uvlznjf2tq-lz.a.run.app"],
-    origin: "https://evac-frontend-uvlznjf2tq-lz.a.run.app"
-    //origin: "https://evac-frontend2-uvlznjf2tq-lz.a.run.app"
-    //origin: "https://34.160.14.57"
-
+    origin: "https://iob.news"
   }
 } 
 
