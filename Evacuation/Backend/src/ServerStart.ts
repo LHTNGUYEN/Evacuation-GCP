@@ -19,6 +19,9 @@ import { adaptionRoutes } from './Routes/AdaptionRoutes';
 import TelemetryController from './Controllers/TelemetryController';
 import { generateFileRoutes } from './Routes/GenerateFileRoutes';
 
+const os = require("os");
+
+
 let databaseManager: DatabaseManager;
 
 const initializeControllers = () => {
@@ -52,6 +55,9 @@ MongoClient.connect(getDbConnectionString(), async (err, client) => {
 });
 
 // Initialize routes
+app.get('/', (req, res) => {
+  res.send(os.hostname())
+})
 app.use('/users', userRoutes);
 app.use('/auth', authRoutes);
 app.use('/surveys', surveyRoutes);
