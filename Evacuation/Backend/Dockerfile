@@ -7,8 +7,9 @@ EXPOSE 3000
 
 RUN npm install
 
-CMD ["npm", "start"]
-#ENTRYPOINT npm run dev
+CMD ["npm", "dev"]
+#CMD ["npm", "start"]
+
 
 
 
