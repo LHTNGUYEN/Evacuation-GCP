@@ -1,5 +1,5 @@
 const constansts = {
-    serverBaseURL: 'https://evac-backend-uvlznjf2tq-lz.a.run.app' // backend
+    serverBaseURL: 'https://evac-backend-us-uvlznjf2tq-uc.a.run.app' // backend
 
     // lb
     
